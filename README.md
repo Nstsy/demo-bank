@@ -1,2 +1,17 @@
 # demo-bank
-задание от 14.10
+public class Account {
+String name;
+String address;
+double balance;
+
+    public void display(){
+        out.print(name);
+        out.print(" (");
+        out.print(address);
+        out.print(") имеет на счету $");
+        out.print(balance);
+    }
+    public double getInternet(double parcentageRate){
+        return balance * parcentageRate / 100.00;
+    }
+}
