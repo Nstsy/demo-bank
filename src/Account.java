@@ -13,7 +13,9 @@ public class Account {
         out.print(balance);
     }
 
-    public double getInternet(double parcentageRate) {
+    public double getInterest(double parcentageRate) {
         return balance * parcentageRate / 100.00;
     }
+
 }
+
