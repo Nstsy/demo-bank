@@ -4,7 +4,6 @@ public class Account {
     String name;
     String address;
     double balance;
-
     public void display() {
         out.print(name);
         out.print(" (");
@@ -12,10 +11,8 @@ public class Account {
         out.print(") имеет на счету $");
         out.print(balance);
     }
-
     public double getInterest(double parcentageRate) {
         return balance * parcentageRate / 100.00;
     }
-
 }
 
